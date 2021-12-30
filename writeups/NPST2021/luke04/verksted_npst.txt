@@ -1,0 +1,83 @@
+               Indeks;Hylleplass;Utstyr;Id
+ 1;153a;justerbar skiftenøkkel_str_01;1629
+  2;132;justerbar skiftenøkkel_str_02;1356
+   3;7b;justerbar skiftenøkkel_str_03;1379
+  4;126;justerbar skiftenøkkel_str_04;1069
+   5;81;justerbar skiftenøkkel_str_05;1545
+ 6;126c;justerbar skiftenøkkel_str_06;1082
+  7;149;justerbar skiftenøkkel_str_07;1441
+  8;117;justerbar skiftenøkkel_str_08;1179
+  9;122;justerbar skiftenøkkel_str_09;1817
+  10;44;justerbar skiftenøkkel_str_10;1310
+                 11;95d;skrutrekker_A;1752
+                 12;102;skrutrekker_B;1394
+                 13;127;skrutrekker_C;1434
+                 14;147c;hammer_liten;1286
+                   15;100;hammer_stor;1705
+                    16;91;skrujern_34;1970
+                   17;84f;skrujern_35;1134
+                    18;46;skrujern_36;1642
+                   19;124;skrujern_37;1625
+                   20;142;skrujern_38;1661
+                          21;127;tang;1998
+                          22;52;øks_A;1714
+                         23;125;øks_B;1953
+                         24; 6f;øks_C;1865
+                          25;74;øks_D;1113
+                         26;125;øks_E;1189
+                          27;7d;øks_F;1017
+                      28;54;hånddrill;1883
+                            29;105;så;1231
+                30;143a;mutter_str_01;1667
+                 31;122;mutter_str_02;1397
+                  32;65;mutter_str_03;1624
+                 33;139;mutter_str_04;1884
+                  34;99;mutter_str_05;1060
+                  35;91;mutter_str_06;1895
+                 36;142;mutter_str_07;1673
+                 37;81d;mutter_str_08;1846
+                 38;103;mutter_str_09;1651
+                 39;128;mutter_str_10;1564
+                  40;90;mutter_str_11;1888
+                  41;74;mutter_str_12;1846
+                 42;122;mutter_str_13;1424
+                 43;120;mutter_str_14;1642
+                  44;87;mutter_str_15;1341
+                 45;89f;mutter_str_16;1791
+                 46;138;mutter_str_17;1150
+                 47;117;mutter_str_18;1064
+                  48;42;mutter_str_19;1183
+                  49;89;mutter_str_20;1780
+                  50;82;mutter_str_21;1828
+                 51;127;mutter_str_22;1842
+                 52;113;mutter_str_23;1210
+                  53;6c;mutter_str_24;1640
+                 54;156;mutter_str_25;1962
+                 55;139;mutter_str_26;1244
+                       56;6f;spiker_1;1530
+                      57;113;spiker_2;1435
+                      58;150;spiker_3;1657
+                       59;93;spiker_4;1288
+                       60;72;spiker_5;1080
+                       61;74;spiker_6;1882
+                 62;130;arbeidsbenk_A;1186
+                  63;50;arbeidsbenk_B;1763
+                64;101b;arbeidsbenk_C;1965
+                 65;124;arbeidsbenk_D;1714
+                  66;90;arbeidsbenk_E;1577
+                    67;99;målebånd_1m;1424
+                   68;149;målebånd_2m;1480
+                   69;122;målebånd_3m;1558
+                   70;69;målebånd_10m;1037
+                        71;84d;nivå_1;1020
+                        72;101;nivå_2;1633
+                         73;72;nivå_3;1947
+                  74;53;gavepapir_grå;1783
+                 75;110;gavepapir_blå;1851
+                76;99;gavepapir_grønn;1413
+                  77;93;gavepapir_rød;1031
+                        78;124;kniv_1;1551
+                     79;156;silkebånd;1400
+                       80;119;glitter;1933
+                 81;150;unbraconøkkel;1549
+                        82;92e;kniv_2;1429

@@ -1,2 +1,2 @@
-# ctf-pub
+# CTF
 CTF ting

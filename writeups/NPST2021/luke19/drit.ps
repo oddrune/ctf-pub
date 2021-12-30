@@ -1,0 +1,37 @@
+###19560
+$ErrorActionPreference = "SilentlyContinue"
+For ($i=10000; $i -le 50000; $i++) {
+$Text = $i
+# $Bytes = [System.Text.Encoding]::Unicode.GetBytes($Text)
+# 
+$Payload = [Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes($Text))
+# Write-Host $Payload
+$Loadstring = [Text.Encoding]::Utf8.GetString([Convert]::FromBase64String($Payload))
+$addressLookup = (Get-FileHash -InputStream ([IO.MemoryStream]::new([byte[]][char[]]$Loadstring)) -Algorithm SHA384).hash
+
+try {
+    
+$Encrypted_Flag = "76492d1116743f0423413b16050a5345MgB8AGUAbwBRAEwAWQB1ADIARQB5AEEAZgB2AHIAWAB4ADQAdgA5AHIAQwBZAEEAPQA9AHwANQAxAGUAZQAxAGUAMABhADUAOAAwADMAZgBlADkAZQA3ADMANQA4AGIAZAAzADAAYQA5ADYANQA4ADMAZABhAGEAOABmADgANQAxADAANAAwADMAMwA5ADk
+AYQA4AGIAMABkAGQAMgA0ADIANgAyAGEAZgBkADUAZgBjADAAZQBhADAAMAAxADkAZQA0ADMAMwBkADIAMQA5ADIAMgA0ADcAMgA2AGUANABlAGQAYQBkAGYAYQA3ADQANAA5ADgA"
+
+        $key = [byte[]]($addressLookup[0..15] -join "").ToCharArray()
+        if (0 -eq $i%1000){
+            write-host "-------"
+            write-host $i
+            write-host $Payload
+        }
+        # write-host $key
+        $ss = ConvertTo-SecureString -String $Encrypted_Flag -Key $key
+        $way = [System.Runtime.InteropServices.Marshal]::SecureStringToGlobalAllocUnicode($ss)
+        $decoded = [System.Runtime.InteropServices.Marshal]::PtrToStringUni($way)
+        Write-Host "Korrekt adresse funnet! Deploy julegaver " -ForegroundColor Magenta
+        Write-Host $decoded -ForegroundColor Yellow
+        write-host $i
+        # break
+}
+
+catch {
+    # Write-host "Feil pipe!" -ForegroundColor Red
+}
+
+}
