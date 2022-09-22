@@ -44,9 +44,7 @@ print("sha256:10000:{}:{}".format(salt_b64, pwd_b64))
 sha256:10000:MmtwTFRTNUlVTw:JR4+FMkSAlUYEndofuT2Ax+TzBNIEuaWHRPb3PojSpicuLlB4MbILjy1fqr2w6K9DhA=
 ```
 
-Kjører hashcat med rockyou som ordliste, men her var jeg muligens litt for rask. Saltet fra Grafana ble muligens base64-encodet to ganger nå. Prøver på nytt med:
+Kjører hashcat med rockyou som ordliste, men her var det bom.
 
-```
-sha256:10000:2kpLTS5IUO:JR4+FMkSAlUYEndofuT2Ax+TzBNIEuaWHRPb3PojSpicuLlB4MbILjy1fqr2w6K9DhA=
-```
-
+> ### Oppdatering
+> Her lærte jeg etterpå at passordet var kort, men det måtte bruteforces: "rør123" Sergei har tydeligvis gått på norskkurs :-&
