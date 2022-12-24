@@ -717,5 +717,5 @@ Used that password with DeepSound on tracks 01 and 02 to get two PNG-files. The 
 
 ![](files/24-flag.png)
 
-> `${GiveMyRegardsToElliott!}`
+> `${M3RRY_C4RI57M@5_FROM_DNB_N3W73C4_1@B!}`
 
