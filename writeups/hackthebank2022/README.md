@@ -24,7 +24,6 @@ Please enter the correct input to get the flag:S4ntaH4c3er
 Nice job! are you Rud0lPTh3Hac3er?? Or Maby you are TheB1gGr1nch ?? Or could you be C1nd3rella??
 Ho Ho Ho! Your flag is: #{S4nta_1S_R1ch$€}
 ```
-First flag breaks their given flag format.
 
 > `#{S4nta_1S_R1ch$€}`
 
