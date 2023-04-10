@@ -122,7 +122,7 @@ So the next step was to read the flag: `; cat flag.txt`
 
 The first task reveals that the flag.txt isn't properly protected on any of the HH-challenges. You can just go to the `/flag.txt` URL directly. I retract my earlier statement - a flag is not just a flag. I need to find the actual solution. The misconfiguration was reported and quickly fixed (flag was moved to /).
 
-I usually started each of these tasks with BurpSuite Intruder where I send a one-character payload and filter for the string "Illegal character detected" to see what is blocked this time:
+I usually started each of these tasks with BurpSuite Intruder where I send a one-character payload and filter for the string "Illegal character discovered" to see what is blocked this time:
 
 ![](./img/hh-enum.png)
 
