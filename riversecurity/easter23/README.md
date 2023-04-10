@@ -1,5 +1,5 @@
 # River Security Easter CTF 2023
-This is a writeup from [River Security](https://riversecurity.eu/)'s Easter CTF 2023.
+This is a writeup from [River Security](https://riversecurity.eu/)'s [Easter CTF 2023](https://rsxc.no/).
 
 ![https://rsxc.no/](./img/ctf-header.png)
 
