@@ -2,6 +2,7 @@
 
 ## ctfd_download.py
 Script to interface the CTFd API.
+
 When the CTF starts:
 - Create category/challname/ with a README.md of the challenge description, and downloads handouts.
 After the CTF:
